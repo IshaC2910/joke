@@ -4,8 +4,8 @@ let jd=document.getElementById("display");
 jb.addEventListener("click",function (){
     fetch("https://official-joke-api.appspot.com/random_joke")
     .then(response=>response.json())
-    .then(data=>jd.textContent=(data.setup+" "+data.punchline))
-    
+    //.then(data=>jd.textContent=(data.setup+" "+data.punchline))
+    .then(data=>console.log(data));
 });
 
 
