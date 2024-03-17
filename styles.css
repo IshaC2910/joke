@@ -1,0 +1,24 @@
+body{
+    background-color: antiquewhite;
+}
+.one {
+    font-size: medium;
+    background-color: brown;
+    text-align: center;
+    padding: 400px 10px;
+
+}
+h1{
+    color: bisque;
+    font-size: 60px;
+
+}
+button{
+    background-color: bisque;
+    font-size: large;
+}
+#display{
+background-color: bisque;
+padding:10px;
+margin:10px;
+}
